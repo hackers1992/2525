@@ -413,7 +413,7 @@ def action():
 						                           cek.write(user+"|"+pass7+"\n")
 						                           cek.close()
 						                           cekpoint.append(user+pass7)
-       except:
+		except:
             pass
         
     p = ThreadPool(30)
